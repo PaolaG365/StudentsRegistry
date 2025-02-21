@@ -25,6 +25,6 @@ jobs:
     - name: Install app dependencies
       run: npm install
     - name: Start app
-      run: npm start
+      run: npm start &
     - name: Run tests
       run: npm test
